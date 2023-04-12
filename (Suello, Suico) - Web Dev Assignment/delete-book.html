@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS Library Management System</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/5253132cc4.js" crossorigin="anonymous"></script>
+
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            background-color: rgb(196, 164, 132);
+            font-family: Arial, Helvetica, sans-serif;
+            list-style: none;
+            text-decoration: none;
+        }
+        .title_bar{
+            width: 96.9%;
+            height: 100px;
+            background-color: lightblue;
+            padding: 25px;
+        }
+        #website_logo{
+            height: 100px;
+            width: 100px;
+            float: left;
+            margin-right: 10px;
+        }
+        #website_name{
+            margin-top: 10px;
+            background-color: lightblue;
+        }
+        nav{
+            text-align: center;
+            background-color: lightblue;
+        }
+        nav a{
+            color: black;
+        }
+        nav ul{
+            display: inline-flex;
+        }
+        nav ul li{
+            width: 290px;
+            padding: 5px;
+            background-color: lightblue;
+        }
+        nav ul li:hover{
+            background-color: rgb(95, 153, 172);
+            cursor: pointer;
+        }
+        #active_tab{
+            background-color: rgb(95, 153, 172);
+        }
+        .fa-house, .fa-folder-plus, .fa-magnifying-glass, .fa-pen-to-square, .fa-trash{
+            background-color: lightblue;
+            margin-right: 8px;
+        }
+        #active_tab .fa-solid{
+            background-color: rgb(95, 153, 172);
+        }
+        nav ul li:hover .fa-solid{
+            background-color: rgb(95, 153, 172);
+        }
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <div class="title_bar">
+            <img src="./favicon.png" alt="" id="website_logo">
+            <br>
+            <h1 id="website_name">SS Library Management System - &nbsp; <i class="fa-sharp fa-solid fa-trash"></i> Delete Book Page</h1>
+        </div>
+        <nav>
+            <ul>
+                <a href="./home-page.html"><li><i class="fa-solid fa-house"></i>HOME PAGE</li></a>
+                <a href="./create-book.html"><li><i class="fa-solid fa-folder-plus"></i>CREATE BOOK</li></a>
+                <a href="./search-book.html"><li><i class="fa-solid fa-magnifying-glass"></i>SEARCH BOOK</li></a>
+                <a href="./update-book.html"><li><i class="fa-solid fa-pen-to-square"></i>UPDATE BOOK</li></a>
+                <a href="./delete-book.html"><li id="active_tab"><i class="fa-sharp fa-solid fa-trash"></i>DELETE BOOK</li></a>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+</html>
