@@ -1,0 +1,19 @@
+1, "A Handbook of Agile Software Craftsmanship", "Robert C. Martin", 1969, "Prentice Hall"
+
+2, "Introduction to Algorithms", "Thomas H. Cormen", 2002, "MIT Press"
+
+3, "Structure and Interpretation of Computer Programs (SICP)", "Harold Abelson", 1998, "MIT Press"
+
+4, "A Code of Conduct for Professional Programmers", "Robert C. Martin", 1969, "Prentice Hall"
+
+5, "A Practical Handbook of Software Construction", "Steve McConnell", 2000, "Microsoft Press"
+
+6, "Elements of Reusable Object-Oriented Software", "Erich Gamma", 2004, "Addison-Wesley Professional"
+
+7, "The Pragmatic Programmer", "Andrew Hunt", 1995, "Addison-Wesley Professional"
+
+8, "Improving the Design of Existing Code", "Martin Fowler", 1999, "Addison-Wesley Professional"
+
+9, "The Art of Computer Programming", "Donald E. Knuth", 1990, "Addison-Wesley Professional"
+
+10, "Patterns of Enterprise Application Architecture", "Martin Fowler", 2010, "MIT Press"
